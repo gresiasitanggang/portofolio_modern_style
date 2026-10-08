@@ -184,7 +184,7 @@ export const EXPERIENCES_DATA: ExperienceItem[] = [
 export const GALLERY_DATA: GalleryPhoto[] = [
   {
     id: 'gal-1',
-    src: `${import.meta.env.BASE_URL}images/bemkm26.jpg1`,
+    src: `${import.meta.env.BASE_URL}images/bemkm26.jpg`,
     caption: 'BEM KM UNNES 2026 Functionaries',
     tag: 'Organization',
     date: 'March 2026',
@@ -266,7 +266,7 @@ export const PROJECTS_DATA: ProjectItem[] = [
     title: 'Native Web Project (SMK)',
     type: 'Developing',
     description: 'A native portfolio web developed entirely from scratch without external frameworks during software engineering studies. Designed to build strong fundamentals in semantic HTML and CSS layout structures.',
-    techStack: ['TypeScript', 'Motion', 'Radix Primitives', 'Storybook', 'Tailwind'],
+    techStack: ['CSS', 'Bootstrap', 'UI UX', 'Sublime Text', 'Notepad++'],
     externalLink: 'https://github.com/gresiasitanggang/',
     linkText: 'Developers Profile',
     colorScheme: '#FF6584'
