@@ -1,7 +1,6 @@
 import { SkillItem, ExperienceItem, GalleryPhoto, ProjectItem, EducationItem } from '../types/portfolio';
 
 // Public Asset Paths
-// Public Asset Paths
 export const HERO_IMAGE = `${import.meta.env.BASE_URL}images/hero_portrait.jpg`;
 
 export const PERSONAL_INFO = {
@@ -185,7 +184,7 @@ export const EXPERIENCES_DATA: ExperienceItem[] = [
 export const GALLERY_DATA: GalleryPhoto[] = [
   {
     id: 'gal-1',
-    src: '${import.meta.env.BASE_URL}images/bemkm26.jpg1',
+    src: `${import.meta.env.BASE_URL}images/bemkm26.jpg1`,
     caption: 'BEM KM UNNES 2026 Functionaries',
     tag: 'Organization',
     date: 'March 2026',
@@ -193,7 +192,7 @@ export const GALLERY_DATA: GalleryPhoto[] = [
   },
   {
     id: 'gal-2',
-    src: '${import.meta.env.BASE_URL}images/asmalibrasi.jpg',
+    src: `${import.meta.env.BASE_URL}images/asmalibrasi.jpg`,
     caption: 'Asmalibrasi Event - Media & Publication Staff',
     tag: 'Comittee',
     date: 'December 2025',
@@ -201,7 +200,7 @@ export const GALLERY_DATA: GalleryPhoto[] = [
   },
   {
     id: 'gal-3',
-    src: '${import.meta.env.BASE_URL}images/juaraukk.jpg',
+    src: `${import.meta.env.BASE_URL}images/juaraukk.jpg`,
     caption: 'Skill Competency Award (Vocational High School)',
     tag: 'Champion',
     date: 'March 2024',
@@ -209,7 +208,7 @@ export const GALLERY_DATA: GalleryPhoto[] = [
   },
   {
     id: 'gal-4',
-    src: '${import.meta.env.BASE_URL}images/magangkak.jpg',
+    src: `${import.meta.env.BASE_URL}images/magangkak.jpg`,
     caption: 'BEM KM UNNES 2025 Internship at KAK',
     tag: 'Organization',
     date: 'March 2024',
@@ -217,7 +216,7 @@ export const GALLERY_DATA: GalleryPhoto[] = [
   },
   {
     id: 'gal-5',
-    src: '${import.meta.env.BASE_URL}images/googleiomedan.jpg',
+    src: `${import.meta.env.BASE_URL}images/googleiomedan.jpg`,
     caption: 'Google Extended I/O Seminar Participant',
     tag: 'Event External',
     date: '2023',
@@ -225,7 +224,7 @@ export const GALLERY_DATA: GalleryPhoto[] = [
   },
   {
     id: 'gal-6',
-    src: '${import.meta.env.BASE_URL}images/rumahdev.png',
+    src: `${import.meta.env.BASE_URL}images/rumahdev.png`,
     caption: 'Design Projects for Rumah Dev',
     tag: 'Products',
     date: '2023',
@@ -233,9 +232,16 @@ export const GALLERY_DATA: GalleryPhoto[] = [
   },
   {
     id: 'gal-7',
-    src: '${import.meta.env.BASE_URL}images/specialdays.png',
+    src: `${import.meta.env.BASE_URL}images/specialdays.png`,
     caption: 'Design Projects for BEM KM UNNES 2026',
     tag: 'Products',
+    date: '2026',
+    location: 'Semarang State University'
+  }{
+    id: 'gal-8',
+    src: `${import.meta.env.BASE_URL}images/hero_portrait.png`,
+    caption: 'Hero the Main Character',
+    tag: 'Person',
     date: '2026',
     location: 'Semarang State University'
   }
