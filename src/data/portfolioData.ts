@@ -237,14 +237,6 @@ export const GALLERY_DATA: GalleryPhoto[] = [
     tag: 'Products',
     date: '2026',
     location: 'Semarang State University'
-  },
-  {
-    id: 'gal-8',
-    src: `${import.meta.env.BASE_URL}images/hero_portrait.jpg`,
-    caption: 'Hero the Main Character',
-    tag: 'Person',
-    date: '2026',
-    location: 'Semarang State University'
   }
 ];
 
