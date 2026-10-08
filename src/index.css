@@ -1,0 +1,117 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+  
+  h1, h2, h3, h4, .font-display {
+    font-family: 'Bricolage Grotesque', sans-serif;
+  }
+
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Claymorphic Gummy Neo-Brutalist Design Tokens */
+.neo-border {
+  border: 3.5px solid #07076c;
+}
+
+.neo-border-sm {
+  border: 2.5px solid #07076c;
+}
+
+/* Gummy Clay Shadows */
+.clay-card {
+  border: 3.5px solid #07076c;
+  box-shadow: 6px 6px 0px #07076c, inset 2.5px 2.5px 5px rgba(255, 255, 255, 0.85), inset -2.5px -2.5px 5px rgba(7, 7, 108, 0.12);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.clay-card:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 8px 8px 0px #07076c, inset 3px 3px 6px rgba(255, 255, 255, 0.95), inset -3px -3px 6px rgba(7, 7, 108, 0.15);
+}
+
+.clay-card-flat {
+  border: 3px solid #07076c;
+  box-shadow: 4px 4px 0px #07076c, inset 2px 2px 4px rgba(255, 255, 255, 0.8), inset -2px -2px 4px rgba(7, 7, 108, 0.08);
+}
+
+.clay-btn {
+  border: 3px solid #07076c;
+  box-shadow: 4px 4px 0px #07076c, inset 2px 2px 4px rgba(255, 255, 255, 0.75), inset -2px -2px 4px rgba(7, 7, 108, 0.15);
+  transition: all 0.18s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.clay-btn:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0px #07076c, inset 2px 2px 5px rgba(255, 255, 255, 0.9), inset -2px -2px 4px rgba(7, 7, 108, 0.2);
+}
+
+.clay-btn:active {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0px #07076c, inset 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Inflatable Gummy Pill & Bubble */
+.clay-pill {
+  border: 2.5px solid #07076c;
+  box-shadow: 3px 3px 0px #07076c, inset 2px 2px 4px rgba(255, 255, 255, 0.8), inset -2px -2px 4px rgba(7, 7, 108, 0.1);
+}
+
+.clay-bubble {
+  border: 3px solid #07076c;
+  box-shadow: 5px 5px 0px #07076c, inset 4px 4px 8px rgba(255, 255, 255, 0.9), inset -4px -4px 8px rgba(7, 7, 108, 0.15);
+}
+
+/* Dot grid background pattern */
+.bg-grid-pattern {
+  background-image: radial-gradient(#07076c 1.2px, transparent 1.2px);
+  background-size: 24px 24px;
+}
+
+/* Animations */
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(1.5deg);
+  }
+}
+
+@keyframes floatReverse {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(8px) rotate(-1.5deg);
+  }
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.85;
+  }
+  50% {
+    transform: scale(1.04);
+    opacity: 1;
+  }
+}
+
+.animate-float-slow {
+  animation: floatSlow 4s ease-in-out infinite;
+}
+
+.animate-float-reverse {
+  animation: floatReverse 4.5s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 3s ease-in-out infinite;
+}
+
