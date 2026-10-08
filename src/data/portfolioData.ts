@@ -240,7 +240,7 @@ export const GALLERY_DATA: GalleryPhoto[] = [
   },
   {
     id: 'gal-8',
-    src: `${import.meta.env.BASE_URL}images/hero_portrait.png`,
+    src: `${import.meta.env.BASE_URL}images/hero_portrait.jpg`,
     caption: 'Hero the Main Character',
     tag: 'Person',
     date: '2026',
