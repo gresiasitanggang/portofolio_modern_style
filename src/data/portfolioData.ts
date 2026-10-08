@@ -237,7 +237,8 @@ export const GALLERY_DATA: GalleryPhoto[] = [
     tag: 'Products',
     date: '2026',
     location: 'Semarang State University'
-  }{
+  },
+  {
     id: 'gal-8',
     src: `${import.meta.env.BASE_URL}images/hero_portrait.png`,
     caption: 'Hero the Main Character',
